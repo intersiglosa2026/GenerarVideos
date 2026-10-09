@@ -6,7 +6,8 @@
     "studio": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts Promo out/promo.mp4",
     "render:selvir": "remotion render src/index.ts Selvir out/selvir.mp4",
-    "render:clips": "remotion render src/index.ts SelvirClips out/selvir-clips.mp4"
+    "render:clips": "remotion render src/index.ts SelvirClips out/selvir-clips.mp4",
+    "render:anim": "remotion render src/index.ts SelvirAnim out/selvir-anim.mp4"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.250",
