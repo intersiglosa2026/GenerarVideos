@@ -3,7 +3,7 @@ import {AbsoluteFill, Sequence, interpolate, spring, useCurrentFrame, useVideoCo
 const BG = '#1f3f7a';
 const font = 'system-ui, Helvetica, Arial, sans-serif';
 
-const Scene = ({title, sub, logo}: {title: string; sub: string; logo?: boolean}) => {
+export const Scene = ({title, sub, logo}: {title: string; sub: string; logo?: boolean}) => {
   const f = useCurrentFrame();
   const {fps, durationInFrames} = useVideoConfig();
   const s = spring({frame: f, fps, config: {damping: 14}});
