@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts Promo out/promo.mp4"
+    "render": "remotion render src/index.ts Promo out/promo.mp4",
+    "render:selvir": "remotion render src/index.ts Selvir out/selvir.mp4"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.250",
